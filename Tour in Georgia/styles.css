@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.activity-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.activity-img:hover {
+  scale: 1.1;
+  transition: 0.7s;
+  opacity: 0.8;
+}
+
+.hero-div {
+  height: 343px;
+  width:594px;
+  background-image: url(images/georgia.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.activity-container {
+  height: 378px;
+  background: #F1FAEE;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.guide-div {
+  display: flex;
+  background-color: #A8DADC;
+  width: 400px;
+  height: 300px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 0px black;
+}
+
+#nick-img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nick-img {
+  padding: 10px;
+  height:200px;
+  border-radius: 50px;
+}
+
+.nick-img:hover {
+  scale: 1.05;
+  opacity: 1.2;
+  transition: 0.7s;
+}
+
+.guide-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-size: 32px;
+  font-family: Arial;
+  margin: 0;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+#title:hover {
+  scale: 1.1;
+  opacity: 0.7;
+  color: lightblue;
+  transition: 0.7s;
+}
+
+#guide-text {
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1D3557;
+  margin: 10px;
+}
+
+#quote {
+  font-family: arial;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 400;
+  color:#1D3557;
+  margin: 5px;
+}
+
+.name {
+  font-family: arial;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1D3557;
+  ;
+}
+
+#title-div {
+  background: #1D3557;
+  width: 225px;
+  margin: 0 auto 0 auto;
+  height: 42px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#subtitle {
+  font-size: 18.72px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-weight: 700;
+}
+
+#subtitle:hover {
+  scale: 1.1;
+  opacity: 0.8;
+  transition: 0.8s;
+}
+
+#subtitle-div {
+  width: 412px;
+  height: 52px;
+  background-color: #457B9D;
+  margin-top: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-of-three {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: -20px;
+  margin-top: 20px;
+}
+
+#activity-title {
+  margin-top: 0;
+  color: #1D3557;
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: 700;
+}
+
+.activity-subtitle {
+  font-size: 16px;
+  font-family: Arial;
+  color: #1D3557;
+  font-weight: 700;
+}
+
+.activity-div {
+  height: 226px;
+  width: 198px;
+}
+
+.activity-description {
+  font-family: Arial;
+  font-size: 16px;
+  color: #1D3557;
+  font-weight: 400;
+}
+
+#final-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#final-text:hover {
+  opacity: 0.8;
+  transition: 0.7s;
+  scale: 1.1;
+}
+
+#main-div {
+  border: 3px dotted black;
+}
